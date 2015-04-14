@@ -32,3 +32,11 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+
+# Executables
+
+*.app
+*.exe
+
+# OS X
+.DS_Store
