@@ -35,6 +35,6 @@ Technical
 ---------
 
 Last time I tried, the project was compiled usint Qt 5 tools, but older versions should also be
-working.
+working. You can also try executables evailable in [releases](https://github.com/mkacz91/Pendulum/releases).
 
 The application makes use of multithreading to separate the integration from the visualization.
