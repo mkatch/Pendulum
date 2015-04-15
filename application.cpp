@@ -6,7 +6,7 @@ Application::Application(
     int     argc,
     char**  argv
 )
-:   QApplication::QApplication(argc, argv)
+:   QApplication(argc, argv)
 {
     mainWindow.setCentralWidget(&centralWidget);
     mainWindow.setMinimumSize(900, 770);

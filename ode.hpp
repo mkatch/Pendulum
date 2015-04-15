@@ -152,7 +152,7 @@ public:
     typedef std::pair<typename ODE<T>::X, typename ODE<T>::X> Range;
 
     ODESolution(typename ODE<T>::X x = 0,
-        typename ODE<T>::Y const& y = typename ODE<T>::Y(1, 0),
+        typename ODE<T>::Y const& y = ODE<T>::Y(1, 0),
         ODEFun<T>* f = NULL,
         Integrator<T>* = new EulerIntegrator<T>());
     ODESolution(typename ODE<T>::Point const& p, ODEFun<T>* f = NULL,

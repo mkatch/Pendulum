@@ -14,7 +14,7 @@ class Buffer : public QThread
 public:
     static const size_t DEFAULT_CAPACITY = 128;
     
-    Buffer(Spawner<T>* spawner = NULL, size_t capacity = DEFAULT_CAPACITY);
+    Buffer(Spawner<T>* spawner, size_t capacity = DEFAULT_CAPACITY);
     explicit Buffer(size_t capacity = DEFAULT_CAPACITY);
     ~Buffer();
 
