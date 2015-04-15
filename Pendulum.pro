@@ -8,6 +8,10 @@ QT       += core gui opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+macx {
+    QMAKE_MAC_SDK = macosx10.9
+}
+
 TARGET = Pendulum
 TEMPLATE = app
 

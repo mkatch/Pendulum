@@ -1,7 +1,7 @@
 #ifndef JG_APPLICATION_HPP
 #define JG_APPLICATION_HPP
 
-#include <QtGui/QtGui>
+#include <QtGui>
 
 #include "central_widget.hpp"
 
